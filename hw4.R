@@ -23,10 +23,11 @@ gg1<-ggplot(data=df2, mapping=aes(x=Site, y=Concentration, colour=chemical))+
   scale_color_discrete(h=c(0,360), direction = 3) #made colour between points from the same type more distinguishable
 direct.label(gg1) #apply direct labelling to remove need for legend
 
-#This plot illustrates the concentrations of the 3 samples taken for each chemical, sequentially.
+#This plot illustrates the concentrations of the 3 samples taken for each chemical at sequentially different sites.
 #The need for a legend was removed by applying a direct label for each chemicall to the plot because there were too many colours, and the
 #which would make points too difficult to distinguish. I thought it would be a good idea to have relevent portions of a legend
-#positioned inside each facet, but did not know how to do this.
+#positioned inside each facet, but did not know how to do this. Overall, I think this plot illustrates the change in concentration of particular
+#chemicals at different sites. A geom_line would likely improve the perception of change.
 
 #Improvements: add a geom_line which plots at the average of the 3 samples. This plot was created below
 #but when I tried to include it in gg1 and separate the lines at each facet, the mean(concentration) would plot innacurately.
