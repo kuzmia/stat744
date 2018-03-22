@@ -1,0 +1,49 @@
+---
+title: "D3.js Pres"
+author: "A. Kuzmin & J. Lopez"
+date: "March 21, 2018"
+output: html_document
+---
+
+D3.js is a javascript library that uses data to create interactive & dynamic visualizations.The D3 stands for Data-Driven Document.
+
+Why use D3.js?
+  - visualizations created with R are static, unless used in conjunction with a package,
+  but even then, it won't be as customization as using javascript.
+  - we'll show you why in a bit.
+  - nonetheless, R produces great plots through packages like ggplot2
+  - again, even with added packages, the customization are predetermined??
+  - using javascript and the D3.js library allows for a lot of customization to
+  interactive plots
+  
+Javascript is a scripting language that is embedded in the HTML to make web pages interactive and dynamics.
+
+The structure of an HTML source code is as follows:
+  <html> #embeds everything for the web page
+  <head>...</head> #controls styling choices e.g. font, colour,etc.
+  <body>...</body> #contains script that determines the visuals what will appear on web page
+  </html>
+  
+<script>...</script> tags are contained in the body tags and is where the javascript is written
+
+Scalable Vector Graphics (SVG) is an image format that is necessary for javascript to interact with its elements, and make them interactive.
+  - (pgn) images can be a part of the html of course, but you won't be able to make it interactive
+  
+2 Methods for creating interactive plots
+
+  1. Use R for data processing and creating a graphic. The we export the graphic in SVG format and bind javascript to the elements we desire.
+  Example of manually binding javascript: (http://vanhumbeecka.github.io/R-and-D3/svg-simple.html)
+    - manually binding the javascript can be done of course, but it's a hassle
+    - we have packages that complete the javascript binding for us, e.g. plotly
+      - plotly examples: (http://vanhumbeecka.github.io/R-and-D3/plotly.html)
+    
+  2. Use R only for data processing & use javascript for entire visualization process. We get more customization & these can potentially result in some pretty graphics. Here is an example that may or may not have been tidied up in R: http://www.sciencemag.org/news/2017/04/here-s-visual-proof-why-vaccines-do-more-good-harm
+  
+Here's a gallery of different plots that use the D3.js library: https://github.com/d3/d3/wiki/Gallery
+  
+Both methods require an javascript knowledge.
+
+Fortunately, there are R packages that produce some notable plots from the gallery above. E.g. networkD3, chorddiag,...
+
+Final words, bring it back to when we talked about info viz. Are these graphics good at story telling that are statistically significant? Are they good at telling the story to a general audience? It seems that they have the potential to be good at both  because of their customization. It is a tool where we may consider both data visualization and information visualization, in one package.
+  
