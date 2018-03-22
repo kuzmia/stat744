@@ -44,6 +44,8 @@ Both methods require an javascript knowledge.
 Fortunately, there are R packages that produce some notable plots from the gallery above. E.g. networkD3, chorddiag,...
 Mike Bostock has collaborted with others to release a few R packages that allow their users to create plots like the ones seen above. E.g. scatterD3, sunburstR, d3r
 
-Final words, bring it back to when we talked about info viz. Are these graphics good at story telling that are statistically significant? Are they good at telling the story to a general audience? It seems that they have the potential to be good at both because of their customization. It is a tool where we may consider both data visualization and information visualization, in one package. For the most common plots, utilizaing javascript may be more work than required -- we can just use R. D3.js seems to make it easier to customize and consider data at the same time. 
-Unless, I wanted immense customization, using R or other packages like plotly may be enough.
+Final words:
+- D3.js seems to make it easier to customize and integrate data at the same time. 
+- utilizaing javascript may be more work than required for some basic plots -- we can just use R. 
+- Unless, we wanted immense customization, perhaps using R or other packages like plotly may be enough.
   
