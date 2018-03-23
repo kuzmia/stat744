@@ -48,4 +48,9 @@ Final words:
 - D3.js seems to make it easier to customize and integrate data at the same time. 
 - utilizaing javascript may be more work than required for some basic plots -- we can just use R. 
 - Unless, we wanted immense customization, perhaps using R or other packages like plotly may be enough.
-  
+
+Useful Resources:
+https://www.w3schools.com/js/ (Javascript tutorials)
+https://www.w3schools.com/html/default.asp (HTML tutorials)
+https://www.rdocumentation.org/collaborators/name/Mike%20Bostock (Mike Bostock's packages)
+https://github.com/d3 (D3 github repositories)
