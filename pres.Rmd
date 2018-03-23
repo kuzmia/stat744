@@ -42,14 +42,17 @@ Here's a gallery of different plots that use the D3.js library: https://github.c
 Both methods require an javascript knowledge.
 
 Fortunately, there are R packages that produce some notable plots from the gallery above. E.g. networkD3, chorddiag,...
+
 Mike Bostock has collaborted with others to release a few R packages that allow their users to create plots like the ones seen above. E.g. scatterD3, sunburstR, d3r
 
 Final words:
-- D3.js seems to make it easier to customize and integrate data at the same time. 
-- utilizaing javascript may be more work than required for some basic plots -- we can just use R. 
-- Unless, we wanted immense customization, perhaps using R or other packages like plotly may be enough.
+- the D3.js library provides functions that makes it easier to customize graphics with data in consideration. 
+- utilizing javascript may be more work than required for some basic plots -- we can just use R. 
+- javascript allows you to make tweeks in graphics, and if they're 'data-driven' then D3 will be helpful.
+- Unless, we wanted immense customization to create something novel, perhaps using R or other packages like plotly may be enough.
+- Mike  Bostock and other developers are creating R packages tht integrat D3.js libraries for particular plots.
 
-Useful Resources:
+Some Useful Resources:
 https://www.w3schools.com/js/ (Javascript tutorials)
 https://www.w3schools.com/html/default.asp (HTML tutorials)
 https://www.rdocumentation.org/collaborators/name/Mike%20Bostock (Mike Bostock's packages)
